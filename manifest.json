@@ -1,0 +1,99 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://github.com/panteasaleh/Image-Annotation-Project_PANTEA_BUSRA/manifest.json",
+    "type": "Manifest",
+    "label": {"en": ["Image Annotation Project"]},
+    "items": [
+      {
+        "id": "AMAZON_1",
+        "type": "Canvas",
+        "height": 1620,
+        "width": 1233,
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "type": "Annotation",
+                "body": { "type": "TextualBody", "value": "Positive review: The mic is great." },
+                "target": {"type": "Image", "source": "AMAZON 1.jpg"}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "AMAZON_2",
+        "type": "Canvas",
+        "height": 1200,
+        "width": 1600,
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "type": "Annotation",
+                "body": { "type": "TextualBody", "value": "Negative review: Needless to say, I wasted my money." },
+                "target": {"type": "Image", "source": "AMAZON 2.jpg"}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "AMAZON_3",
+        "type": "Canvas",
+        "height": 1632,
+        "width": 1224,
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "type": "Annotation",
+                "body": { "type": "TextualBody", "value": "Positive review: Works great." },
+                "target": {"type": "Image", "source": "AMAZON 3.jpg"}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "AMAZON_4",
+        "type": "Canvas",
+        "height": 1632,
+        "width": 1224,
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "type": "Annotation",
+                "body": { "type": "TextualBody", "value": "Negative review: People couldn’t hear me talk and I had to pull off the earphones and talk on the phone." },
+                "target": {"type": "Image", "source": "AMAZON 4.jpg"}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "IMDB_1",
+        "type": "Canvas",
+        "height": 1000,
+        "width": 702,
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "type": "Annotation",
+                "body": { "type": "TextualBody", "value": "Negative review: A very, very, very slow-moving, aimless movie about a distressed, drifting young man." },
+                "target": {"type": "Image", "source": "imdb 1.jpg"}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
